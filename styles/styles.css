@@ -52,6 +52,13 @@ footer ul {
   gap: 0px;
 }
 
+.signature {
+  margin-top: 24px;
+  width: 80px;
+  filter: invert(0%) sepia(2%) saturate(865%) hue-rotate(316deg) brightness(93%)
+    contrast(87%);
+}
+
 @media screen and (max-width: 767px) {
   .container {
     width: auto;
