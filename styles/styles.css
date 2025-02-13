@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Satoshi-Variable";
+  src: url("/assets/font/Satoshi/Satoshi-Variable.woff2") format("woff2"),
+    url("/assets/font/Satoshi/Satoshi-Variable.woff") format("woff"),
+    url("/assets/font/Satoshi/Satoshi-Variable.ttf") format("truetype");
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+* {
+  font-family: "Satoshi-Variable", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 550;
+  margin: 32px 0 8px 0;
+}
+
+p {
+  margin-bottom: 8px;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+  padding: 40px;
+}
+
+ul {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.projects h3 {
+  margin-top: 8px;
+}
+.projects li div {
+  padding: 0px;
+}
+
+footer ul {
+  gap: 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: auto;
+  }
+}
