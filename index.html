@@ -17,9 +17,12 @@
     />
   </head>
   <body>
+    <script src="/js/script.js"></script>
     <main>
-      <div class="container">
-        <nav>
+      <nav>
+        <div class="nav-container">
+
+          <img src="/assets/signature.svg" alt="md monogram signature" />
           <ul>
             <li>
               <a
@@ -34,66 +37,112 @@
               >
             </li>
           </ul>
-        </nav>
-        <section>
-          <h1>Maycon Douglas' Portfolio</h1>
-          <p>
-            Hi! This is my portfolio. I know it's kind of weird now but that's
-            because I'm building it my self while learning how to code. Please
-            come back here in a few weeks to see my progress if you're
-            interessed.
-          </p>
-        </section>
-        <section>
-          <h2>Selected Works</h2>
-          <p>
-            I know why you're here, so I've linked my best work so far bellow
-          </p>
-          <div class="projects">
-            <ul>
-              <li>
-                <div>
-                  <h3>Danone North America</h3>
-                  <p>
-                    Redesigning the institucional website of a company that
-                    brings health through food around the globe
-                  </p>
-                  <a href="https://www.danonenorthamerica.com/" target="_blank"
-                    >Live Project</a
-                  >
-                </div>
-              </li>
-              <li>
-                <div>
-                  <h3>Clube Duratex</h3>
-                  <p>
-                    Creating a platform to connect brand and costumers to get
-                    both relationship, data and prizes
-                  </p>
-                  <a href="https://www.clubeduratex.com.br/" target="_blank"
-                    >Live Project</a
-                  >
-                </div>
-              </li>
-              <li>
-                <div>
-                  <h3>GSKpro</h3>
-                  <p>
-                    Revamp on a pharmaceutical leading company website on
-                    Argentina
-                  </p>
-                  <a href="https://gskpro.com/es-ar/" target="_blank"
-                    >Live Project</a
-                  >
-                </div>
-              </li>
-            </ul>
-          </div>
-        </section>
-      </div>
-      <footer>
+        </div>
+      </nav>
+      <section class="hero-section">
         <div class="container">
-          <h4>Portfolio Changelog</h4>
+          <div class="profile-picture">
+            <img src="/assets/projects/profile-pic.jpg" alt="" />
+            <div class="availability">
+              <div class="circle"></div>
+              Available for short period projects
+            </div>
+          </div>
+          <p class="hero-heading">
+            <span>I am your next design partner.</span>
+            I've been working on projects that don't just look great but also
+            drives results — serving as the a gateway to conversions and
+            business growth.
+          </p>
+        </div>
+      </section>
+      <section class="works-section">
+        <h2 class="section-heading">Selected Works</h2>
+        <div class="container">
+          <div class="projects">
+            <div id="danone" class="project-container">
+                <div class="project-cover">
+                  <span class="tag">Case study soon</span>
+                  <img
+                    src="/assets/projects/danone-cover.jpg"
+                    alt="a laptop with the danone website opened"
+                  />
+                </div>
+                <div class="project-detail">
+                  <h3 class="project-title">Danone North America</h3>
+                  <p class="project-description">
+                    Complete redesign of the portal, enhancing brand identity and
+                    providing a seamless, accessible experience for a global
+                    audience.
+                  </p>
+                  <a
+                    href="https://www.danonenorthamerica.com/"
+                    target="_blank"
+                    rel="external"
+                    >Live Project</a
+                  >
+              </div>
+            </div>
+              <div id="Duratex" class="project-container">
+                
+                <div class="project-cover">
+                  <img
+                    src="/assets/projects/duratex-cover.jpg"
+                    alt="a laptop with the danone website opened"
+                  />
+                </div>
+                <div class="project-detail">
+                  <span class="tag">Case study soon</span>
+                  <h3 class="project-title">Clube Duratex</h3>
+                  <p class="project-description">
+                    Conceptualized and designed an innovative loyalty program,
+                    integrating data-driven insights to enhance customer
+                    engagement.
+                  </p>
+                  <a
+                    href="https://www.clubeduratex.com.br/"
+                    target="_blank"
+                    rel="external"
+                    >Live Project</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about-me">
+        <h2 class="section-heading">About me</h2>
+        <div class="container">
+          <div class="two-column bg-none vertical">
+            <p>
+              With over five years of experience as a product designer, I’ve had
+              the privilege of collaborating with global brands to develop
+              digital solutions that amplify their online presence and deliver
+              measurable results.
+            </p>
+            <p>
+              Currently, I’m a Product Designer at
+              <a
+                href="https://www.dtidigital.com.br/"
+                target="_blank"
+                rel="external"
+                >dti digital</a
+              >, a tech partner of VML in Brazil. Curious about my journey?
+              Check out my full profile on
+              <a
+                href="https://www.linkedin.com/in/maycondouglass/"
+                target="_blank"
+                rel="external"
+                >LinkedIn</a
+              >.
+            </p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <h3 class="section-heading">Portfolio Changelog</h4>
+        <div class="container">
           <ul>
             <li>
               <p>
@@ -104,12 +153,10 @@
             <li>
               12/02 - V0.1: Add a little bit of css to get things more organized
             </li>
+            <li>
+              23/02 - V1: Updated the HTML structure and implemented CSS patterns to streamline styling and set the future visual direction
+            </li>
           </ul>
-                    <img
-            class="signature"
-            src="/assets/Favicon@2x.svg"
-            alt="Maycon's signature"
-          />
         </div>
       </footer>
     </main>
